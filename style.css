@@ -11,6 +11,42 @@ body {
     margin: 50px;
 }
 
+.header {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2); 
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.header ul {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+    transition: all ease 0.5s;
+}
+
+.header ul li a:hover {
+    background-color: #211b4385;
+}
+
 h2 {
     text-align: center;
     font-size: 100px;
@@ -25,20 +61,19 @@ section {
     place-items: center;
     align-items: center;
     min-height: 100vh;
-    margin-bottom: 200px; /* Aumentar a distância entre as seções */
+    margin-bottom: 200px;
+    padding-top: 100px; /* Adicionado para evitar sobreposição do cabeçalho */
 }
 
 .hidden {
     opacity: 0;
-    filter: blur(25px);
-    transform: translateX(-100%);
-    transition: opacity 1s, filter 1s, transform 1s;
+    transform: scale(0.8);
+    transition: opacity 1s, transform 1s;
 }
 
 .show {
     opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
+    transform: scale(1);
 }
 
 .logos {
