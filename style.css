@@ -6,7 +6,7 @@
 
 body {
     background-image: url('Assets/background-space.jpg');
-    background-position: cover;
+    background-size: cover;
     color: whitesmoke;
     margin: 50px;
 }
@@ -25,19 +25,20 @@ section {
     place-items: center;
     align-items: center;
     min-height: 100vh;
+    margin-bottom: 200px; /* Aumentar a distância entre as seções */
 }
 
 .hidden {
     opacity: 0;
-    filter: blur(15px);
+    filter: blur(25px);
     transform: translateX(-100%);
-    transition: all 1.5s;
+    transition: opacity 1s, filter 1s, transform 1s;
 }
 
 .show {
     opacity: 1;
+    filter: blur(0);
     transform: translateX(0);
-    transition: all 1.5s;
 }
 
 .logos {
@@ -52,14 +53,14 @@ section {
     margin: 5px;
 }
 
-.logos :nth-child(2) {
+.logos:nth-child(2) {
     transition-delay: 400ms;
 }
 
-.logos :nth-child(3) {
+.logos:nth-child(3) {
     transition-delay: 700ms;
 }
 
-.logos :nth-child(4) {
+.logos:nth-child(4) {
     transition-delay: 1000ms;
 }
