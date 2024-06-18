@@ -150,4 +150,7 @@ section {
 
 #início p {
     font-size: 32px;
+    text-align: justify;
+    margin-bottom: 16px;
+    text-indent: 2em;
 }
