@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,16 +9,41 @@
 body {
     background-image: url('Assets/background-space.jpg');
     background-size: cover;
-    color: whitesmoke;
+    color: #ededed; /* Removido duplicata */
     margin: 0px;
 }
 
 .header {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.2); 
+    background-color: transparent; 
     position: fixed;
+    left: 0;
     top: 0;
-    z-index: 1000;
+    padding: 20px;
+    z-index: 100;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.header a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding: 25px;
+    margin-left: 35px;
+    transition: all ease 0.5s;
 }
 
 .header ul {
@@ -35,16 +62,16 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: whitesmoke;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 35px;
     letter-spacing: 2px;
-    font-weight: 600;
     padding: 25px;
     transition: all ease 0.5s;
 }
 
 .header ul li a:hover {
-    background-color: #211b4385;
+    color: #00abf0;
 }
 
 h2 {
@@ -52,16 +79,11 @@ h2 {
     font-size: 100px;
 }
 
-p {
-    font-size: 50px;
-}
-
 section {
     display: grid;
     place-items: center;
-    align-items: center;
     min-height: 100vh;
-    margin-bottom: 200px;
+    margin: 0;
     padding-top: 100px; /* Adicionado para evitar sobreposição do cabeçalho */
 }
 
@@ -98,4 +120,33 @@ section {
 
 .logos:nth-child(4) {
     transition-delay: 1000ms;
+}
+
+#início {
+    min-height: calc(100vh - 120px); /* Ajuste para a altura da seção */
+    display: flex;
+    align-items: center;
+    padding: 10 10%;
+    margin-left: 80px;
+}
+
+#início .pagina-inicial {
+    margin-top: 200px;
+    max-width: 1000px;
+    background: red;
+}
+
+#início h1 {
+    font-size: 82px;
+    font-weight: 700;
+}
+
+#início h3 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+#início p {
+    font-size: 32px;
 }
