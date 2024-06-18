@@ -7,7 +7,7 @@
 }
 
 body {
-    background: black;
+    background: rgb(16, 2, 68);
     background-size: cover;
     color: #ededed; /* Removido duplicata */
     margin: 0px;
