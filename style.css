@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url('Assets/background-space.jpg');
+    background: black;
     background-size: cover;
     color: #ededed; /* Removido duplicata */
     margin: 0px;
@@ -131,20 +131,21 @@ section {
 }
 
 #início .pagina-inicial {
-    margin-top: 200px;
+    margin-top: 160px;
     max-width: 1000px;
-    background: red;
 }
 
 #início h1 {
     font-size: 82px;
     font-weight: 700;
+    text-align: right;
 }
 
 #início h3 {
     font-size: 62px;
     font-weight: 700;
     color: #00abf0;
+    text-align: right;
 }
 
 #início p {
