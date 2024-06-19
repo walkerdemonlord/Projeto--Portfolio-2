@@ -130,25 +130,25 @@ section {
     margin-left: 80px;
 }
 
-#início .pagina-inicial {
+#início .pagina-inicial-esquerda {
     margin-top: 160px;
     max-width: 1000px;
 }
 
-#início h1 {
+#início .pagina-inicial-esquerda h1 {
     font-size: 82px;
     font-weight: 700;
     text-align: right;
 }
 
-#início h3 {
+#início .pagina-inicial-esquerda h3 {
     font-size: 62px;
     font-weight: 700;
     color: #00abf0;
     text-align: right;
 }
 
-#início p {
+#início .pagina-inicial-esquerda p {
     font-size: 30px;
     text-align: left;
     margin-bottom: 16px;
