@@ -107,20 +107,20 @@ section {
 }
 
 .pagina-inicial-esquerda h1, .pagina-inicial-direita h1 {
-    font-size: 82px;
+    font-size: 62px;
     font-weight: 700;
     text-align: right;
 }
 
 .pagina-inicial-esquerda h3, .pagina-inicial-direita h3 {
-    font-size: 62px;
+    font-size: 42px;
     font-weight: 700;
     color: #00abf0;
     text-align: right;
 }
 
 .pagina-inicial-esquerda p, .pagina-inicial-direita p {
-    font-size: 30px;
+    font-size: 22px;
     text-align: left;
     margin-bottom: 16px;
     text-indent: 2em;
@@ -128,14 +128,15 @@ section {
 
 #início, #trabalhos, #contatos {
     display: flex;
-    align-items: center;
-    padding: 0 10%;
-    margin-left: 80px;
+    align-items: left;
+    justify-content: flex-start;
+    padding: 50px;
+    margin-left: 30px;
 }
 
 #formação, #projetos {
     display: flex;
     justify-content: flex-end;
-    padding: 0;
-    margin-right: 80px;
+    padding: 20px;
+    margin-right: 50px;
 }
