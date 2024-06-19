@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-.logo {
+.logos {
     font-size: 35px;
     color: whitesmoke;
     text-decoration: none;
@@ -139,4 +139,12 @@ section {
     justify-content: flex-end;
     padding: 20px;
     margin-right: 50px;
+}
+
+.avatar {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+    background-color: whitesmoke;
+    border-radius: 10px;
+    object-fit: contain; /* Ajuste para melhor exibição das imagens */
 }
