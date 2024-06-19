@@ -134,6 +134,9 @@ section {
     margin-left: 80px;
 }
 
+
+/*SESSÃO - INÍCIO*/
+
 #início .pagina-inicial-esquerda {
     margin-top: 160px;
     max-width: 1000px;
@@ -153,6 +156,117 @@ section {
 }
 
 #início .pagina-inicial-esquerda p {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+    text-indent: 2em;
+}
+
+
+/*SESSÃO - FORMAÇÃO*/
+
+#formação {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 80px;
+}
+
+#formação .pagina-inicial-direita {
+    margin-top: 160px;
+    max-width: 1000px;
+    margin-left: 0;
+}
+
+
+#formação .pagina-inicial-direita h1 {
+    font-size: 82px;
+    font-weight: 700;
+    text-align: right;
+}
+
+#formação .pagina-inicial-direita h3 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #00abf0;
+    text-align: right;
+}
+
+#formação .pagina-inicial-direita p {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+    text-indent: 2em;
+}
+
+
+/*SESSÃO - TRABALHOS*/
+
+#trabalhos {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    padding: 10 10%;
+    margin-left: 80px;
+}
+
+#trabalhos .pagina-inicial-esquerda {
+
+    margin-top: 160px;
+    max-width: 1000px;
+}
+
+#trabalhos .pagina-inicial-esquerda h1 {
+    font-size: 82px;
+    font-weight: 700;
+    text-align: right;
+}
+
+#trabalhos .pagina-inicial-esquerda h3 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #00abf0;
+    text-align: right;
+}
+
+#trabalhos .pagina-inicial-esquerda p {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 16px;
+    text-indent: 2em;
+}
+
+
+/*SESSÃO - CONTATOS*/
+
+#contatos {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    padding: 10 10%;
+    margin-left: 80px;
+}
+
+#contatos .pagina-inicial-esquerda {
+    margin-top: 160px;
+    max-width: 1000px;
+}
+
+#contatos .pagina-inicial-esquerda h1 {
+    font-size: 82px;
+    font-weight: 700;
+    text-align: right;
+}
+
+#contatos .pagina-inicial-esquerda h3 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #00abf0;
+    text-align: right;
+}
+
+#contatos .pagina-inicial-esquerda p {
     font-size: 30px;
     text-align: left;
     margin-bottom: 16px;
