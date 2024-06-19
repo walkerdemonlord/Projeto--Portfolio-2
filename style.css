@@ -70,6 +70,10 @@ body {
     transition: all ease 0.5s;
 }
 
+#k {
+    color:  #00abf0;
+}
+
 .header ul li a:hover {
     color: #00abf0;
 }
@@ -123,7 +127,7 @@ section {
 }
 
 #início {
-    min-height: calc(100vh - 120px); /* Ajuste para a altura da seção */
+    min-height: calc(100vh - 120px);
     display: flex;
     align-items: center;
     padding: 10 10%;
