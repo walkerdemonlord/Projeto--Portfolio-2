@@ -134,7 +134,7 @@ section {
     margin-left: 30px;
 }
 
-#formação, #projetos {
+#conhecimentos, #projetos {
     display: flex;
     justify-content: flex-end;
     padding: 20px;
