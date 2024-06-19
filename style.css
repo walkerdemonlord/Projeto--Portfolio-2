@@ -149,8 +149,8 @@ section {
 }
 
 #início p {
-    font-size: 32px;
-    text-align: justify;
+    font-size: 30px;
+    text-align: left;
     margin-bottom: 16px;
     text-indent: 2em;
 }
