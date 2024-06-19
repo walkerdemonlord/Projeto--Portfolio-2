@@ -9,20 +9,19 @@
 body {
     background: rgb(16, 2, 68);
     background-size: cover;
-    color: #ededed; /* Removido duplicata */
-    margin: 0px;
+    color: #ededed;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 .header {
     width: 100%;
-    background-color: transparent; 
+    background-color: transparent;
     position: fixed;
     left: 0;
     top: 0;
     padding: 20px;
     z-index: 100;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +70,7 @@ body {
 }
 
 #k {
-    color:  #00abf0;
+    color: #00abf0;
 }
 
 .header ul li a:hover {
@@ -87,8 +86,8 @@ section {
     display: grid;
     place-items: center;
     min-height: 100vh;
-    margin: 0;
-    padding-top: 100px; /* Adicionado para evitar sobreposição do cabeçalho */
+    padding-top: 100px; /* Ajustado para evitar sobreposição do cabeçalho */
+    margin-bottom: 100px; /* Adicionado espaço entre seções */
 }
 
 .hidden {
@@ -102,173 +101,41 @@ section {
     transform: scale(1);
 }
 
-.logos {
-    display: flex;
-    gap: 20px;
-}
-
-.avatar {
-    height: 200px;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    margin: 5px;
-}
-
-.logos:nth-child(2) {
-    transition-delay: 400ms;
-}
-
-.logos:nth-child(3) {
-    transition-delay: 700ms;
-}
-
-.logos:nth-child(4) {
-    transition-delay: 1000ms;
-}
-
-#início {
-    min-height: calc(100vh - 120px);
-    display: flex;
-    align-items: center;
-    padding: 10 10%;
-    margin-left: 80px;
-}
-
-
-/*SESSÃO - INÍCIO*/
-
-#início .pagina-inicial-esquerda {
+.pagina-inicial-esquerda, .pagina-inicial-direita {
     margin-top: 160px;
     max-width: 1000px;
 }
 
-#início .pagina-inicial-esquerda h1 {
+.pagina-inicial-esquerda h1, .pagina-inicial-direita h1 {
     font-size: 82px;
     font-weight: 700;
     text-align: right;
 }
 
-#início .pagina-inicial-esquerda h3 {
+.pagina-inicial-esquerda h3, .pagina-inicial-direita h3 {
     font-size: 62px;
     font-weight: 700;
     color: #00abf0;
     text-align: right;
 }
 
-#início .pagina-inicial-esquerda p {
+.pagina-inicial-esquerda p, .pagina-inicial-direita p {
     font-size: 30px;
     text-align: left;
     margin-bottom: 16px;
     text-indent: 2em;
 }
 
+#início, #trabalhos, #contatos {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    margin-left: 80px;
+}
 
-/*SESSÃO - FORMAÇÃO*/
-
-#formação {
-    min-height: calc(100vh - 120px);
+#formação, #projetos {
     display: flex;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 0;
     margin-right: 80px;
-}
-
-#formação .pagina-inicial-direita {
-    margin-top: 160px;
-    max-width: 1000px;
-    margin-left: 0;
-}
-
-
-#formação .pagina-inicial-direita h1 {
-    font-size: 82px;
-    font-weight: 700;
-    text-align: right;
-}
-
-#formação .pagina-inicial-direita h3 {
-    font-size: 62px;
-    font-weight: 700;
-    color: #00abf0;
-    text-align: right;
-}
-
-#formação .pagina-inicial-direita p {
-    font-size: 30px;
-    text-align: left;
-    margin-bottom: 16px;
-    text-indent: 2em;
-}
-
-
-/*SESSÃO - TRABALHOS*/
-
-#trabalhos {
-    min-height: calc(100vh - 120px);
-    display: flex;
-    align-items: center;
-    padding: 10 10%;
-    margin-left: 80px;
-}
-
-#trabalhos .pagina-inicial-esquerda {
-
-    margin-top: 160px;
-    max-width: 1000px;
-}
-
-#trabalhos .pagina-inicial-esquerda h1 {
-    font-size: 82px;
-    font-weight: 700;
-    text-align: right;
-}
-
-#trabalhos .pagina-inicial-esquerda h3 {
-    font-size: 62px;
-    font-weight: 700;
-    color: #00abf0;
-    text-align: right;
-}
-
-#trabalhos .pagina-inicial-esquerda p {
-    font-size: 30px;
-    text-align: left;
-    margin-bottom: 16px;
-    text-indent: 2em;
-}
-
-
-/*SESSÃO - CONTATOS*/
-
-#contatos {
-    min-height: calc(100vh - 120px);
-    display: flex;
-    align-items: center;
-    padding: 10 10%;
-    margin-left: 80px;
-}
-
-#contatos .pagina-inicial-esquerda {
-    margin-top: 160px;
-    max-width: 1000px;
-}
-
-#contatos .pagina-inicial-esquerda h1 {
-    font-size: 82px;
-    font-weight: 700;
-    text-align: right;
-}
-
-#contatos .pagina-inicial-esquerda h3 {
-    font-size: 62px;
-    font-weight: 700;
-    color: #00abf0;
-    text-align: right;
-}
-
-#contatos .pagina-inicial-esquerda p {
-    font-size: 30px;
-    text-align: left;
-    margin-bottom: 16px;
-    text-indent: 2em;
 }
