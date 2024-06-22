@@ -27,13 +27,6 @@ body {
     align-items: center;
 }
 
-.logos {
-    font-size: 35px;
-    color: whitesmoke;
-    text-decoration: none;
-    font-weight: 600;
-}
-
 .header a {
     display: block;
     text-decoration: none;
@@ -136,15 +129,53 @@ section {
 
 #conhecimentos, #projetos {
     display: flex;
-    justify-content: flex-end;
-    padding: 20px;
+    margin-top: 160px;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 50px; /* Ajuste o padding conforme necessário */
     margin-right: 50px;
 }
 
+.logos {
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    grid-template-rows: repeat(2, 1fr); /* Duas linhas */
+    gap: 60px; /* Espaço entre os ícones */
+    width: 300px; /* Largura da grid */
+    margin: 160px 0 0 30px; /* Ajuste de margens */
+    background-color: transparent; /* Removendo o fundo vermelho */
+}
+
 .avatar {
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100px; /* Ajuste o tamanho conforme necessário */
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
     background-color: whitesmoke;
     border-radius: 10px;
     object-fit: contain; /* Ajuste para melhor exibição das imagens */
+}
+
+.logos :nth-child(1) {
+	transition-delay: 100ms;
+}
+
+.logos :nth-child(2) {
+	transition-delay: 200ms;
+}
+
+.logos :nth-child(3) {
+	transition-delay: 300ms;
+}
+
+.logos :nth-child(4) {
+	transition-delay: 400ms;
+}
+
+.logos :nth-child(5) {
+	transition-delay: 500ms;
+}
+
+.logos :nth-child(6) {
+	transition-delay: 600ms;
 }
