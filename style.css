@@ -66,6 +66,11 @@ body {
     color: #00abf0;
 }
 
+#imagem {
+    width: 50%;
+    height: auto;
+}
+
 .header ul li a:hover {
     color: #00abf0;
 }
@@ -83,6 +88,7 @@ section {
     margin-bottom: 100px; /* Adicionado espaço entre seções */
 }
 
+
 .hidden {
     opacity: 0;
     transform: scale(0.8);
@@ -97,6 +103,10 @@ section {
 .pagina-inicial-esquerda, .pagina-inicial-direita {
     margin-top: 160px;
     max-width: 1000px;
+}
+
+.div-para-direita {
+    margin-right: 160px;
 }
 
 .pagina-inicial-esquerda h1, .pagina-inicial-direita h1 {
@@ -155,6 +165,51 @@ section {
     border-radius: 10px;
     object-fit: contain; /* Ajuste para melhor exibição das imagens */
 }
+
+.icones-trabalhos {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaçamento entre os cards */
+    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha se necessário */
+}
+
+.icones-trabalhos01 {
+    margin-top: 160px;
+    gap: 50px;
+    background-color: inherit;
+    border-radius: 8px; /* Bordas arredondadas dos cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra dos cards */
+    padding: 20px; /* Espaçamento interno dos cards */
+    text-align: center; /* Centraliza o texto dentro dos cards */
+    justify-content: center;
+    width: 200px; /* Largura fixa dos cards */
+    transition: transform 0.2s; /* Animação ao passar o mouse */
+}
+
+.icones-trabalhos01 a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    color: inherit; /* Mantém a cor do texto */
+    display: block; /* Garante que o link ocupe toda a área do card */
+}
+
+.icones-trabalhos01:hover {
+    transform: scale(1.05); /* Aumenta o card ao passar o mouse */
+}
+
+.logo-trabalho {
+    width: 100px; /* Largura fixa do GIF */
+    height: 100px; /* Altura fixa do GIF */
+    background-size: cover; /* Garante que o fundo cubra toda a área */
+    background-position: center; /* Centraliza o fundo */
+    margin: 0 auto 10px; /* Centraliza o GIF e adiciona margem inferior */
+    border-radius: 10%; /* Torna o fundo circular */
+}
+
+.fonte-texto {
+    font-size: 18px; /* Tamanho do texto dos títulos */
+    text-align: center; /* Centraliza o texto */
+}
+
 
 .logos :nth-child(1) {
 	transition-delay: 100ms;
